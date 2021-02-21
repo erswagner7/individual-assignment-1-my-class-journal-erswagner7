@@ -13,7 +13,7 @@ public class MyClassJournalController {
         JournalEntry journalEntry= new JournalEntry();
         journalEntry.setNotes("");
         String desc = journalEntry.getNotes();
-        return "start";
+        return "index";
     }
 
 
